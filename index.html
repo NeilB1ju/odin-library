@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-text">Library</div>
+        <button class="log-in">Log In</button>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <button class="add-book">+ Add Book</button>
+        </div>
+        <div class="books">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </main>
+
+    <dialog class="modal" id="modal">
+        <p class="modal-text">Add new book</p>
+        <form class="form" method="dialog">
+            <input type="text" placeholder="Title" id="title" required>
+            <input type="text" placeholder="Author" id="author" required>
+            <input type="number" placeholder="Pages" id="pages" required>
+            <div class="wrapper">
+                <p>Have you read it?</p>
+                <input type="checkbox" name="read" id="read">
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
