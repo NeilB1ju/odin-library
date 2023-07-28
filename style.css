@@ -95,6 +95,7 @@ main{
     align-items: center;
     gap: 20px;
     padding: 20px;
+    overflow: hidden;
 }
 
 .read-button, .delete-button{
